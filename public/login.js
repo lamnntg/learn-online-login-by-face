@@ -268,7 +268,7 @@ async function captureSnapshot() {
                 `Welcome ${result.fullname} - Click Ok to continue Login`
               )
             ) {
-              window.location.href = `http://localhost:3000/login-by-face?token=${result.token}`;
+              window.location.href = `https://learn-online-web.web.app/login-by-face?token=${result.token}`;
               window.close();
             } else {
               // They clicked no
