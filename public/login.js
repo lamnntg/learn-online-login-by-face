@@ -269,7 +269,6 @@ async function captureSnapshot() {
               )
             ) {
               window.location.href = `https://learn-online-web.web.app/login-by-face?token=${result.token}`;
-              window.close();
             } else {
               // They clicked no
             }
