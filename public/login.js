@@ -166,7 +166,7 @@ async function captureSnapshotsRegister() {
     var xhr = new XMLHttpRequest();
     promisify(xhr);
 
-    xhr.open("POST", "http://localhost:5000/register");
+    xhr.open("POST", "https://learn-online-login-by-face.herokuapp.com/register");
     xhr.send(data).then((res) => {
       stopStreaming();
       alert(`Đăng ký thành công`);
@@ -255,7 +255,7 @@ async function captureSnapshot() {
         var xhr = new XMLHttpRequest();
         promisify(xhr);
 
-        xhr.open("POST", "http://localhost:5000/");
+        xhr.open("POST", "https://learn-online-login-by-face.herokuapp.com/");
         xhr
           .send(data)
           .then((res) => {
