@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec ./node_modules/.bin/babel-node ./src/index.js",
+    "dev": "nodemon --exec ./node_modules/.bin/babel-node ./src/index.js",
     "build": "babel src --out-dir dist",
-    "serve": "node dist/index.js"
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
